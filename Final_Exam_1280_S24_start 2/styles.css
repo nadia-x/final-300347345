@@ -1,0 +1,80 @@
+p {
+    text-align: center;
+    font-size: 50px;
+
+    margin-top: 0px;
+}
+
+html {
+    font-family: Arial, sans-serif;
+
+    background-color: bisque
+}
+
+body {
+    width: 75%;
+margin: auto; 
+padding: 5px;
+}
+
+#banner {
+    font-size: 10pX;
+    background-color: ivory;
+    width: 100%;
+    margin: auto;
+    height: 20vh;
+    border: black 5px solid;
+    text-align: center;
+    /* padding-bottom: 10%; */
+    display: flex;
+    
+    flex-direction: column;
+    margin-bottom: 5px;
+    
+    
+}
+
+button {
+    background-color: rgb(106, 221, 196);
+    /* width: 10%; */
+    height: 40px;
+    width: 20vh;
+    margin: auto;
+    border: black 2 px solid;
+    text-align: center;
+    margin-bottom: 20px;
+    vertical-align: middle;
+}
+
+input {
+    background-color: #f0f0f0;
+    width: 25%;
+    
+    margin: auto;
+    margin-bottom: 1%;
+    
+    border: black 5px solid;
+    text-align: center;
+    font-size: large;
+    font-style: bold;
+}
+
+#card {
+    background-color: #020202;
+    width: 100%;
+    height: 70vh;
+   margin: auto;
+    border: black 5px solid;
+    text-align: center;
+    
+    background-size: 100%;
+    font-weight: bolder;
+    color: red;
+    text-shadow: 0px 0px 3px #ffffff, -1px -1px #ffffff, 1px 1px #ffffff;
+    background-image: url("world.jpg");
+}
+
+sub {
+    font-size: 0.5em;
+    color: #000000;
+}
